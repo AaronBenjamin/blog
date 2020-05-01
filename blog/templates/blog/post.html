@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% from 'bootstrap/form.html' import render_form %}
+{% from 'bootstrap/pagination.html' import render_pagination %}
+{% from 'bootstrap/form.html' import render_form, render_field %}
+{% from 'macros.html' import render_tag with context %}
+
+{% block title %}{{ post.title }}{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <h1>{{ post.title }}
+        <span class="float-right">
+            {% if current_user.is_authenticated %}
+            <a class="btn btn-info btn-sm" href="{{ url_for('admin.edit_post', slug=post.slug) }}">编辑</a>
+            <form class="inline" method="post" action="{{ url_for('admin.delete_post', slug=post.slug, next=url_for('blog.index')) }}">
+                <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
+                <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('确定删除吗？');">删除</button>
+            </form>
+            {% endif %}
+        </span>
+    </h1>
+    <small>
+    {{ render_tag(post) }}
+    &nbsp;&nbsp;<i>{{ moment(post.timestamp).format('L') }}</i>
+    </small>
+</div>
+<div class="row">
+    <div class="col-lg-9">
+        {{ post.body|safe }}
+        <hr>
+    </div>
+<div class="col-lg-3 sidebar">
+    {% include "blog/_sidebar.html" %}
+</div>
+</div>
+{% endblock %}

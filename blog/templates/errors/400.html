@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}400 Error{% endblock %}
+
+{% block content %}
+<div class="row">
+	<div class="col-sm8">
+    <h1>400错误，请求错误</h1>
+        <p>{{ description|default('Bad Request') }}</p>
+    </div>
+    <div class="col-sm-4 sidebar">
+        {% include 'blog/_sidebar.html' %}
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,23 @@
+{% if posts %}
+{% for post in posts %}
+<h5 class="text-info"><a href="{{ url_for('.show_post', slug=post.slug) }}">{{ post.title }}</a></h5>
+<p>
+    {{ post.body|striptags|truncate(length=400, end='......') }}
+    <small><a href="{{ url_for('.show_post', slug=post.slug) }}">阅读更多</a></small>
+</p>
+<small>
+    {{ render_tag(post) }}&nbsp;&nbsp;&nbsp;&nbsp;
+    <i>{{ moment(post.timestamp).format('L') }}</i>
+</small>
+{% if not loop.last %}
+<hr>
+{% endif %}
+{% endfor %}
+{% else %}
+<div class="tip">
+    <h5>我是有底线的</h5>
+    {% if current_user.is_authenticated %}
+    <a href="{{ url_for('admin.new_post') }}">新建文章</a>
+    {% endif %}
+</div>
+{% endif %}

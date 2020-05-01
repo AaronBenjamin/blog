@@ -1,0 +1,91 @@
+{% from 'bootstrap/nav.html' import render_nav_item %}
+<!DOCTYPE html>
+<html lang='zh-cmn-Hans'>
+    <head>
+        {% block head %}
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>{% block title %}首页{% endblock %}</title>
+        <link rel='icon' href="{{ url_for('static', filename='favicon.ico') }}">
+	<link href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" type="text/css">
+        {% endblock head %}
+    </head>
+    <body>
+        {% block nav %}
+        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary mb-0">
+            <div class="container">
+		    <a class="navbar-brand" href="{{ url_for('index.index') }}">{{ admin.blog_title|default('法律人博客') }}</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                    <ul class="navbar-nav mr-auto">
+		            	{{ render_nav_item('index.index', '首页') }}
+                        {{ render_nav_item('blog.index', '博客') }}
+                        {{ render_nav_item('blog.about', '关于作者') }}
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        {% if current_user.is_authenticated %}
+                        <li class="nav-item  dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button">新建<span class="caret"></span>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="{{ url_for('admin.new_post') }}">文章</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button">
+                                管理<span class="caret"></span>
+                                {% if unread_comments %}
+                                <span class="badge badge-success">新</span>
+                                {% endif %}
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="{{ url_for('admin.manage_post') }}">文章</a>
+                                <a class="dropdown-item" href="{{ url_for('admin.manage_tag') }}">标签</a>
+                            </div>
+                        </li>
+                        {{ render_nav_item('admin.settings', '设置') }}
+                        {% endif %}
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        {% endblock nav %}
+        <main class="container-fluid">
+            {% for message in get_flashed_messages(with_categories=True) %}
+            <div class="alert alert-{{ message[0] }}" role="alert">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+		{{ message[1] }}
+            </div>
+        {% endfor %}
+        {% block content %}
+        <div class="row   bg-dark mt-0">
+            <div class="col-lg-6 col-md-6 align-items-center text-center">
+		    <h1 style="margin-top:300px;color:rgb(255,255,237);">赵洪波律师</h1>
+                <h1 style="color:rgb(255,255,237);">
+                   相信专业的力量！
+                </h1>
+            </div>
+            <div class="col-lg-6 col-md-6 ">
+                <img class="img-fluid" src="{{ url_for('static', filename='show-picture.png') }}" alt="">
+            </div>
+        </div>
+{% endblock %}
+       
+        </main> 
+
+        {% block scripts %}
+        <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.slim.min.js"></script>
+        <script src="https://cdn.bootcss.com/popper.js/1.15.0/popper.min.js"></script>
+        <script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/script.js') }}"></script>
+        {% endblock scripts %}
+    </body>
+</html>
+
+
+
+
+

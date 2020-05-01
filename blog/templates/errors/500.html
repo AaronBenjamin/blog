@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}500 Error{% endblock %}
+
+{% block content %}
+<div class="row">
+	<div class="col-sm-8">
+    <h4>我们的网站出了点问题，请稍后再试一下</h4>
+    </div>
+    <div class="col-sm-4 sidebar">
+        {% include '_sidebar.html' %}
+    </div>
+</div>
+{% endblock %}

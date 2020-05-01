@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}关于{% endblock %}
+
+{% block content %}
+<div class="row">
+  <div class="col-lg-8">
+    <h1>关于作者</h1>
+        {{ admin.about|safe }}
+</div>
+</div>
+{% endblock %}

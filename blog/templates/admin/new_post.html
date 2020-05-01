@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% from 'bootstrap/form.html' import render_form %}
+{% from 'bootstrap/form.html' import render_field %}
+
+{% block title %}新建文章{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <h1>新建文章</h1>
+</div>
+<form method="post">
+	{{ postform.csrf_token() }}
+	{{ render_field(postform.title) }}
+	{{ render_field(postform.tag) }}
+	{{ render_field(postform.body) }}
+	{{ render_field(postform.submit) }}
+{% endblock %}
+
+{% block scripts %}
+{{ super() }}
+<script type="text/javascript" src="{{ url_for('static', filename='js/ckeditor/ckeditor.js') }}"></script>
+{{ ckeditor.config(name='body') }}
+{% endblock %}
