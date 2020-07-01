@@ -1,0 +1,2289 @@
+2020-06-18 08:54:06,326-flask.app-ERROR-Exception on /post/shijianshibakedao2020-06-13/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 37, in show_post
+    form = MessageForm()
+NameError: name 'MessageForm' is not defined
+2020-06-18 08:54:07,126-flask.app-ERROR-Exception on /post/shijianshibakedao2020-06-13/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 37, in show_post
+    form = MessageForm()
+NameError: name 'MessageForm' is not defined
+2020-06-18 08:54:07,711-flask.app-ERROR-Exception on /post/shijianshibakedao2020-06-13/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 37, in show_post
+    form = MessageForm()
+NameError: name 'MessageForm' is not defined
+2020-06-18 08:54:08,735-flask.app-ERROR-Exception on /post/shijianshibakedao2020-06-13/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 37, in show_post
+    form = MessageForm()
+NameError: name 'MessageForm' is not defined
+2020-06-18 08:54:09,459-flask.app-ERROR-Exception on /post/shijianshibakedao2020-06-13/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 37, in show_post
+    form = MessageForm()
+NameError: name 'MessageForm' is not defined
+2020-06-18 08:54:10,138-flask.app-ERROR-Exception on /post/shijianshibakedao2020-06-13/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 37, in show_post
+    form = MessageForm()
+NameError: name 'MessageForm' is not defined
+2020-06-18 08:54:23,444-flask.app-ERROR-Exception on /post/zhegeshijieganjuehenmeihao/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 37, in show_post
+    form = MessageForm()
+NameError: name 'MessageForm' is not defined
+2020-06-18 08:54:24,244-flask.app-ERROR-Exception on /post/zhegeshijieganjuehenmeihao/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 37, in show_post
+    form = MessageForm()
+NameError: name 'MessageForm' is not defined
+2020-06-18 08:54:25,063-flask.app-ERROR-Exception on /post/zhegeshijieganjuehenmeihao/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 37, in show_post
+    form = MessageForm()
+NameError: name 'MessageForm' is not defined
+2020-06-18 08:54:26,156-flask.app-ERROR-Exception on /post/zhegeshijieganjuehenmeihao/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 37, in show_post
+    form = MessageForm()
+NameError: name 'MessageForm' is not defined
+2020-06-18 08:54:27,206-flask.app-ERROR-Exception on /post/zhegeshijieganjuehenmeihao/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 37, in show_post
+    form = MessageForm()
+NameError: name 'MessageForm' is not defined
+2020-06-18 08:54:28,441-flask.app-ERROR-Exception on /post/zhegeshijieganjuehenmeihao/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 37, in show_post
+    form = MessageForm()
+NameError: name 'MessageForm' is not defined
+2020-06-18 08:54:34,698-flask.app-ERROR-Exception on /post/zhegeshijieganjuehenmeihao/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 37, in show_post
+    form = MessageForm()
+NameError: name 'MessageForm' is not defined
+2020-06-18 08:54:35,937-flask.app-ERROR-Exception on /post/zhegeshijieganjuehenmeihao/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 37, in show_post
+    form = MessageForm()
+NameError: name 'MessageForm' is not defined
+2020-06-18 08:54:37,164-flask.app-ERROR-Exception on /post/zhegeshijieganjuehenmeihao/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 37, in show_post
+    form = MessageForm()
+NameError: name 'MessageForm' is not defined
+2020-06-18 08:55:08,645-flask.app-ERROR-Exception on /post/zhegeshijieganjuehenmeihao/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 37, in show_post
+    form = MessageForm()
+NameError: name 'MessageForm' is not defined
+2020-06-18 08:55:09,733-flask.app-ERROR-Exception on /post/zhegeshijieganjuehenmeihao/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 37, in show_post
+    form = MessageForm()
+NameError: name 'MessageForm' is not defined
+2020-06-18 08:55:11,016-flask.app-ERROR-Exception on /post/zhegeshijieganjuehenmeihao/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 37, in show_post
+    form = MessageForm()
+NameError: name 'MessageForm' is not defined
+2020-06-18 08:56:04,482-flask.app-ERROR-Exception on /post/zhegeshijieganjuehenmeihao/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 37, in show_post
+    post = Post.query.filter_by(slug=slug).first_or_404()
+NameError: name 'MessageForm' is not defined
+2020-06-18 08:56:05,128-flask.app-ERROR-Exception on /post/zhegeshijieganjuehenmeihao/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 37, in show_post
+    post = Post.query.filter_by(slug=slug).first_or_404()
+NameError: name 'MessageForm' is not defined
+2020-06-18 08:56:05,783-flask.app-ERROR-Exception on /post/zhegeshijieganjuehenmeihao/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 37, in show_post
+    post = Post.query.filter_by(slug=slug).first_or_404()
+NameError: name 'MessageForm' is not defined
+2020-06-18 08:56:45,549-flask.app-ERROR-Exception on /post/shiwudebaigumugedizhongdfas/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 49, in show_post
+    return render_template('blog/post.html', post=post, form=form)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 135, in render_template
+    context, ctx.app)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 117, in _render
+    rv = template.render(context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 5, in top-level template code
+    {% from 'macros.html' import render_tag with context %}
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/base.html", line 58, in top-level template code
+    {% block content %}        {% endblock content %}
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 36, in block "content"
+    {% include 'blog/_message.html' %}
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/_message.html", line 9, in top-level template code
+    {{ render_form_field(form.name) }}
+jinja2.exceptions.UndefinedError: 'render_form_field' is undefined
+2020-06-18 08:56:46,480-flask.app-ERROR-Exception on /post/shiwudebaigumugedizhongdfas/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 49, in show_post
+    return render_template('blog/post.html', post=post, form=form)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 135, in render_template
+    context, ctx.app)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 117, in _render
+    rv = template.render(context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 5, in top-level template code
+    {% from 'macros.html' import render_tag with context %}
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/base.html", line 58, in top-level template code
+    {% block content %}        {% endblock content %}
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 36, in block "content"
+    {% include 'blog/_message.html' %}
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/_message.html", line 9, in top-level template code
+    {{ render_form_field(form.name) }}
+jinja2.exceptions.UndefinedError: 'render_form_field' is undefined
+2020-06-18 08:56:47,374-flask.app-ERROR-Exception on /post/shiwudebaigumugedizhongdfas/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 49, in show_post
+    return render_template('blog/post.html', post=post, form=form)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 135, in render_template
+    context, ctx.app)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 117, in _render
+    rv = template.render(context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 5, in top-level template code
+    {% from 'macros.html' import render_tag with context %}
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/base.html", line 58, in top-level template code
+    {% block content %}        {% endblock content %}
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 36, in block "content"
+    {% include 'blog/_message.html' %}
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/_message.html", line 9, in top-level template code
+    {{ render_form_field(form.name) }}
+jinja2.exceptions.UndefinedError: 'render_form_field' is undefined
+2020-06-18 08:56:48,725-flask.app-ERROR-Exception on /post/shiwudebaigumugedizhongdfas/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 49, in show_post
+    return render_template('blog/post.html', post=post, form=form)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 135, in render_template
+    context, ctx.app)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 117, in _render
+    rv = template.render(context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 5, in top-level template code
+    {% from 'macros.html' import render_tag with context %}
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/base.html", line 58, in top-level template code
+    {% block content %}        {% endblock content %}
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 36, in block "content"
+    {% include 'blog/_message.html' %}
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/_message.html", line 9, in top-level template code
+    {{ render_form_field(form.name) }}
+jinja2.exceptions.UndefinedError: 'render_form_field' is undefined
+2020-06-18 08:56:49,907-flask.app-ERROR-Exception on /post/shiwudebaigumugedizhongdfas/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 49, in show_post
+    return render_template('blog/post.html', post=post, form=form)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 135, in render_template
+    context, ctx.app)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 117, in _render
+    rv = template.render(context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 5, in top-level template code
+    {% from 'macros.html' import render_tag with context %}
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/base.html", line 58, in top-level template code
+    {% block content %}        {% endblock content %}
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 36, in block "content"
+    {% include 'blog/_message.html' %}
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/_message.html", line 9, in top-level template code
+    {{ render_form_field(form.name) }}
+jinja2.exceptions.UndefinedError: 'render_form_field' is undefined
+2020-06-18 08:56:51,183-flask.app-ERROR-Exception on /post/shiwudebaigumugedizhongdfas/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 49, in show_post
+    return render_template('blog/post.html', post=post, form=form)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 135, in render_template
+    context, ctx.app)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 117, in _render
+    rv = template.render(context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 5, in top-level template code
+    {% from 'macros.html' import render_tag with context %}
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/base.html", line 58, in top-level template code
+    {% block content %}        {% endblock content %}
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 36, in block "content"
+    {% include 'blog/_message.html' %}
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/_message.html", line 9, in top-level template code
+    {{ render_form_field(form.name) }}
+jinja2.exceptions.UndefinedError: 'render_form_field' is undefined
+2020-06-18 08:59:12,981-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 49, in show_post
+    return render_template('blog/post.html', post=post, form=form)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 135, in render_template
+    context, ctx.app)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 117, in _render
+    rv = template.render(context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 5, in top-level template code
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/base.html", line 58, in top-level template code
+    {% block content %}        {% endblock content %}
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 36, in block "content"
+    </div>
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/_message.html", line 9, in top-level template code
+    {{ render_form_field(form.name) }}
+jinja2.exceptions.UndefinedError: 'render_form_field' is undefined
+2020-06-18 08:59:13,771-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 49, in show_post
+    return render_template('blog/post.html', post=post, form=form)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 135, in render_template
+    context, ctx.app)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 117, in _render
+    rv = template.render(context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 5, in top-level template code
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/base.html", line 58, in top-level template code
+    {% block content %}        {% endblock content %}
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 36, in block "content"
+    </div>
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/_message.html", line 9, in top-level template code
+    {{ render_form_field(form.name) }}
+jinja2.exceptions.UndefinedError: 'render_form_field' is undefined
+2020-06-18 08:59:14,677-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 49, in show_post
+    return render_template('blog/post.html', post=post, form=form)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 135, in render_template
+    context, ctx.app)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 117, in _render
+    rv = template.render(context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 5, in top-level template code
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/base.html", line 58, in top-level template code
+    {% block content %}        {% endblock content %}
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 36, in block "content"
+    </div>
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/_message.html", line 9, in top-level template code
+    {{ render_form_field(form.name) }}
+jinja2.exceptions.UndefinedError: 'render_form_field' is undefined
+2020-06-18 08:59:16,158-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 49, in show_post
+    return render_template('blog/post.html', post=post, form=form)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 135, in render_template
+    context, ctx.app)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 117, in _render
+    rv = template.render(context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 5, in top-level template code
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/base.html", line 58, in top-level template code
+    {% block content %}        {% endblock content %}
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 36, in block "content"
+    </div>
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/_message.html", line 9, in top-level template code
+    {{ render_form_field(form.name) }}
+jinja2.exceptions.UndefinedError: 'render_form_field' is undefined
+2020-06-18 08:59:17,054-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 49, in show_post
+    return render_template('blog/post.html', post=post, form=form)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 135, in render_template
+    context, ctx.app)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 117, in _render
+    rv = template.render(context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 5, in top-level template code
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/base.html", line 58, in top-level template code
+    {% block content %}        {% endblock content %}
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 36, in block "content"
+    </div>
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/_message.html", line 9, in top-level template code
+    {{ render_form_field(form.name) }}
+jinja2.exceptions.UndefinedError: 'render_form_field' is undefined
+2020-06-18 08:59:18,106-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 49, in show_post
+    return render_template('blog/post.html', post=post, form=form)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 135, in render_template
+    context, ctx.app)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 117, in _render
+    rv = template.render(context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 5, in top-level template code
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/base.html", line 58, in top-level template code
+    {% block content %}        {% endblock content %}
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 36, in block "content"
+    </div>
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/_message.html", line 9, in top-level template code
+    {{ render_form_field(form.name) }}
+jinja2.exceptions.UndefinedError: 'render_form_field' is undefined
+2020-06-18 08:59:24,234-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 49, in show_post
+    return render_template('blog/post.html', post=post, form=form)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 135, in render_template
+    context, ctx.app)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 117, in _render
+    rv = template.render(context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 5, in top-level template code
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/base.html", line 58, in top-level template code
+    {% block content %}        {% endblock content %}
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 36, in block "content"
+    </div>
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/_message.html", line 9, in top-level template code
+    {{ render_form_field(form.name) }}
+jinja2.exceptions.UndefinedError: 'render_form_field' is undefined
+2020-06-18 08:59:25,955-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 49, in show_post
+    return render_template('blog/post.html', post=post, form=form)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 135, in render_template
+    context, ctx.app)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 117, in _render
+    rv = template.render(context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 5, in top-level template code
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/base.html", line 58, in top-level template code
+    {% block content %}        {% endblock content %}
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 36, in block "content"
+    </div>
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/_message.html", line 9, in top-level template code
+    {{ render_form_field(form.name) }}
+jinja2.exceptions.UndefinedError: 'render_form_field' is undefined
+2020-06-18 08:59:27,440-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 49, in show_post
+    return render_template('blog/post.html', post=post, form=form)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 135, in render_template
+    context, ctx.app)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 117, in _render
+    rv = template.render(context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 5, in top-level template code
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/base.html", line 58, in top-level template code
+    {% block content %}        {% endblock content %}
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 36, in block "content"
+    </div>
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/_message.html", line 9, in top-level template code
+    {{ render_form_field(form.name) }}
+jinja2.exceptions.UndefinedError: 'render_form_field' is undefined
+2020-06-18 09:00:23,332-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 49, in show_post
+    return render_template('blog/post.html', post=post, form=form)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 135, in render_template
+    context, ctx.app)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 117, in _render
+    rv = template.render(context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 5, in top-level template code
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/base.html", line 58, in top-level template code
+    {% block content %}        {% endblock content %}
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 36, in block "content"
+    </div>
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/_message.html", line 9, in top-level template code
+    {{ render_form_field(form.name) }}
+jinja2.exceptions.UndefinedError: 'render_form_field' is undefined
+2020-06-18 09:00:24,892-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 49, in show_post
+    return render_template('blog/post.html', post=post, form=form)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 135, in render_template
+    context, ctx.app)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 117, in _render
+    rv = template.render(context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 5, in top-level template code
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/base.html", line 58, in top-level template code
+    {% block content %}        {% endblock content %}
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 36, in block "content"
+    </div>
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/_message.html", line 9, in top-level template code
+    {{ render_form_field(form.name) }}
+jinja2.exceptions.UndefinedError: 'render_form_field' is undefined
+2020-06-18 09:00:26,477-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 49, in show_post
+    return render_template('blog/post.html', post=post, form=form)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 135, in render_template
+    context, ctx.app)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 117, in _render
+    rv = template.render(context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 5, in top-level template code
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/base.html", line 58, in top-level template code
+    {% block content %}        {% endblock content %}
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 36, in block "content"
+    </div>
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/_message.html", line 9, in top-level template code
+    {{ render_form_field(form.name) }}
+jinja2.exceptions.UndefinedError: 'render_form_field' is undefined
+2020-06-18 09:00:31,693-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 49, in show_post
+    return render_template('blog/post.html', post=post, form=form)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 135, in render_template
+    context, ctx.app)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 117, in _render
+    rv = template.render(context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 5, in top-level template code
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/base.html", line 58, in top-level template code
+    {% block content %}        {% endblock content %}
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 36, in block "content"
+    </div>
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/_message.html", line 9, in top-level template code
+    {{ form.csrf_token }}
+jinja2.exceptions.UndefinedError: 'render_form_field' is undefined
+2020-06-18 09:00:32,712-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 49, in show_post
+    return render_template('blog/post.html', post=post, form=form)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 135, in render_template
+    context, ctx.app)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 117, in _render
+    rv = template.render(context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 5, in top-level template code
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/base.html", line 58, in top-level template code
+    {% block content %}        {% endblock content %}
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 36, in block "content"
+    </div>
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/_message.html", line 9, in top-level template code
+    {{ form.csrf_token }}
+jinja2.exceptions.UndefinedError: 'render_form_field' is undefined
+2020-06-18 09:00:33,885-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 49, in show_post
+    return render_template('blog/post.html', post=post, form=form)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 135, in render_template
+    context, ctx.app)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 117, in _render
+    rv = template.render(context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 5, in top-level template code
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/base.html", line 58, in top-level template code
+    {% block content %}        {% endblock content %}
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 36, in block "content"
+    </div>
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/_message.html", line 9, in top-level template code
+    {{ form.csrf_token }}
+jinja2.exceptions.UndefinedError: 'render_form_field' is undefined
+2020-06-18 09:00:35,624-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 49, in show_post
+    return render_template('blog/post.html', post=post, form=form)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 135, in render_template
+    context, ctx.app)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 117, in _render
+    rv = template.render(context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 5, in top-level template code
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/base.html", line 58, in top-level template code
+    {% block content %}        {% endblock content %}
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 36, in block "content"
+    </div>
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/_message.html", line 9, in top-level template code
+    {{ form.csrf_token }}
+jinja2.exceptions.UndefinedError: 'render_form_field' is undefined
+2020-06-18 09:00:37,469-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 49, in show_post
+    return render_template('blog/post.html', post=post, form=form)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 135, in render_template
+    context, ctx.app)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 117, in _render
+    rv = template.render(context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 5, in top-level template code
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/base.html", line 58, in top-level template code
+    {% block content %}        {% endblock content %}
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 36, in block "content"
+    </div>
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/_message.html", line 9, in top-level template code
+    {{ form.csrf_token }}
+jinja2.exceptions.UndefinedError: 'render_form_field' is undefined
+2020-06-18 09:00:38,539-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 49, in show_post
+    return render_template('blog/post.html', post=post, form=form)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 135, in render_template
+    context, ctx.app)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 117, in _render
+    rv = template.render(context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 5, in top-level template code
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/base.html", line 58, in top-level template code
+    {% block content %}        {% endblock content %}
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/post.html", line 36, in block "content"
+    </div>
+  File "/mnt/c/Users/zhaoh/python/blog/blog/templates/blog/_message.html", line 9, in top-level template code
+    {{ form.csrf_token }}
+jinja2.exceptions.UndefinedError: 'render_form_field' is undefined
+2020-06-20 15:35:24,716-flask.app-ERROR-Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask_caching/__init__.py", line 436, in decorated_function
+    rv = f(*args, **kwargs)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 18, in index
+    pagination = Post.query.order_by(Post.timestamp.desc()).paginate(page, per_page=per_page)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask_sqlalchemy/__init__.py", line 512, in __get__
+    mapper = orm.class_mapper(type)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/base.py", line 421, in class_mapper
+    mapper = _inspect_mapped_class(class_, configure=configure)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/base.py", line 400, in _inspect_mapped_class
+    mapper._configure_all()
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/mapper.py", line 1272, in _configure_all
+    configure_mappers()
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/mapper.py", line 3029, in configure_mappers
+    mapper._post_configure_properties()
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/mapper.py", line 1828, in _post_configure_properties
+    prop.init()
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/interfaces.py", line 183, in init
+    self.do_init()
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/relationships.py", line 1659, in do_init
+    self._generate_backref()
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/relationships.py", line 1849, in _generate_backref
+    (backref_key, self, m))
+sqlalchemy.exc.ArgumentError: Error creating backref 'post' on relationship 'Post.messages': property of that name exists on mapper 'Mapper|Message|message'
+2020-06-20 15:35:26,034-flask.app-ERROR-Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/home/aaron/.local/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1713, in handle_user_exception
+    return self.handle_http_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1644, in handle_http_exception
+    return handler(e)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/__init__.py", line 132, in page_not_found
+    return render_template('errors/404.html'), 404
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/templating.py", line 133, in render_template
+    ctx.app.update_template_context(context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 792, in update_template_context
+    context.update(func())
+  File "/mnt/c/Users/zhaoh/python/blog/blog/__init__.py", line 104, in make_template_context
+    admin = Admin.query.first()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask_sqlalchemy/__init__.py", line 512, in __get__
+    mapper = orm.class_mapper(type)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/base.py", line 421, in class_mapper
+    mapper = _inspect_mapped_class(class_, configure=configure)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/base.py", line 400, in _inspect_mapped_class
+    mapper._configure_all()
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/mapper.py", line 1272, in _configure_all
+    configure_mappers()
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/mapper.py", line 3026, in configure_mappers
+    raise e
+sqlalchemy.exc.InvalidRequestError: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper|Post|post'. Original exception was: Error creating backref 'post' on relationship 'Post.messages': property of that name exists on mapper 'Mapper|Message|message'
+2020-06-20 15:59:47,147-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 39, in show_post
+    pagination = Message.query.with_parent(post).order_by(Message.timestamp.asc()).paginate(page, per_page)
+NameError: name 'page' is not defined
+2020-06-20 15:59:48,007-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 39, in show_post
+    pagination = Message.query.with_parent(post).order_by(Message.timestamp.asc()).paginate(page, per_page)
+NameError: name 'page' is not defined
+2020-06-20 15:59:48,549-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 39, in show_post
+    pagination = Message.query.with_parent(post).order_by(Message.timestamp.asc()).paginate(page, per_page)
+NameError: name 'page' is not defined
+2020-06-20 15:59:49,227-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 39, in show_post
+    pagination = Message.query.with_parent(post).order_by(Message.timestamp.asc()).paginate(page, per_page)
+NameError: name 'page' is not defined
+2020-06-20 15:59:50,099-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 39, in show_post
+    pagination = Message.query.with_parent(post).order_by(Message.timestamp.asc()).paginate(page, per_page)
+NameError: name 'page' is not defined
+2020-06-20 15:59:50,939-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 39, in show_post
+    pagination = Message.query.with_parent(post).order_by(Message.timestamp.asc()).paginate(page, per_page)
+NameError: name 'page' is not defined
+2020-06-20 15:59:56,695-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 39, in show_post
+    pagination = Message.query.with_parent(post).order_by(Message.timestamp.asc()).paginate(page, per_page)
+NameError: name 'page' is not defined
+2020-06-20 15:59:57,725-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 39, in show_post
+    pagination = Message.query.with_parent(post).order_by(Message.timestamp.asc()).paginate(page, per_page)
+NameError: name 'page' is not defined
+2020-06-20 15:59:58,667-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 39, in show_post
+    pagination = Message.query.with_parent(post).order_by(Message.timestamp.asc()).paginate(page, per_page)
+NameError: name 'page' is not defined
+2020-06-20 16:00:29,892-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 39, in show_post
+    pagination = Message.query.with_parent(post).order_by(Message.timestamp.asc()).paginate(page, per_page)
+NameError: name 'page' is not defined
+2020-06-20 16:00:31,176-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 39, in show_post
+    pagination = Message.query.with_parent(post).order_by(Message.timestamp.asc()).paginate(page, per_page)
+NameError: name 'page' is not defined
+2020-06-20 16:00:32,537-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 39, in show_post
+    pagination = Message.query.with_parent(post).order_by(Message.timestamp.asc()).paginate(page, per_page)
+NameError: name 'page' is not defined
+2020-06-20 16:03:13,409-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 39, in show_post
+    page = request.args.get('page', 1, type=int)
+NameError: name 'page' is not defined
+2020-06-20 16:03:13,754-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 39, in show_post
+    page = request.args.get('page', 1, type=int)
+NameError: name 'page' is not defined
+2020-06-20 16:03:14,343-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 39, in show_post
+    page = request.args.get('page', 1, type=int)
+NameError: name 'page' is not defined
+2020-06-20 16:03:15,285-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 39, in show_post
+    page = request.args.get('page', 1, type=int)
+NameError: name 'page' is not defined
+2020-06-20 16:03:15,994-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 39, in show_post
+    page = request.args.get('page', 1, type=int)
+NameError: name 'page' is not defined
+2020-06-20 16:03:16,467-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 39, in show_post
+    page = request.args.get('page', 1, type=int)
+NameError: name 'page' is not defined
+2020-06-20 16:03:21,981-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 39, in show_post
+    page = request.args.get('page', 1, type=int)
+NameError: name 'page' is not defined
+2020-06-20 16:03:23,075-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 39, in show_post
+    page = request.args.get('page', 1, type=int)
+NameError: name 'page' is not defined
+2020-06-20 16:03:24,274-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 39, in show_post
+    page = request.args.get('page', 1, type=int)
+NameError: name 'page' is not defined
+2020-06-20 16:04:29,093-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1193, in _execute_context
+    context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 509, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such column: message.body
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 41, in show_post
+    pagination = Message.query.with_parent(post).order_by(Message.timestamp.asc()).paginate(page, per_page)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask_sqlalchemy/__init__.py", line 491, in paginate
+    items = self.limit(per_page).offset((page - 1) * per_page).all()
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2836, in all
+    return list(self)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2988, in __iter__
+    return self._execute_and_instances(context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3011, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/sql/elements.py", line 269, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1060, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1200, in _execute_context
+    context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 265, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 248, in reraise
+    raise value.with_traceback(tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1193, in _execute_context
+    context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 509, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such column: message.body [SQL: 'SELECT message.id AS message_id, message.title AS message_title, message.name AS message_name, message.email AS message_email, message.body AS message_body, message.timestamp AS message_timestamp, message.post_id AS message_post_id \nFROM message \nWHERE ? = message.post_id ORDER BY message.timestamp ASC\n LIMIT ? OFFSET ?'] [parameters: (12, 6, 0)] (Background on this error at: http://sqlalche.me/e/e3q8)
+2020-06-20 16:04:30,056-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1193, in _execute_context
+    context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 509, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such column: message.body
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 41, in show_post
+    pagination = Message.query.with_parent(post).order_by(Message.timestamp.asc()).paginate(page, per_page)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask_sqlalchemy/__init__.py", line 491, in paginate
+    items = self.limit(per_page).offset((page - 1) * per_page).all()
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2836, in all
+    return list(self)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2988, in __iter__
+    return self._execute_and_instances(context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3011, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/sql/elements.py", line 269, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1060, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1200, in _execute_context
+    context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 265, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 248, in reraise
+    raise value.with_traceback(tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1193, in _execute_context
+    context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 509, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such column: message.body [SQL: 'SELECT message.id AS message_id, message.title AS message_title, message.name AS message_name, message.email AS message_email, message.body AS message_body, message.timestamp AS message_timestamp, message.post_id AS message_post_id \nFROM message \nWHERE ? = message.post_id ORDER BY message.timestamp ASC\n LIMIT ? OFFSET ?'] [parameters: (12, 6, 0)] (Background on this error at: http://sqlalche.me/e/e3q8)
+2020-06-20 16:04:30,784-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1193, in _execute_context
+    context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 509, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such column: message.body
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 41, in show_post
+    pagination = Message.query.with_parent(post).order_by(Message.timestamp.asc()).paginate(page, per_page)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask_sqlalchemy/__init__.py", line 491, in paginate
+    items = self.limit(per_page).offset((page - 1) * per_page).all()
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2836, in all
+    return list(self)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2988, in __iter__
+    return self._execute_and_instances(context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3011, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/sql/elements.py", line 269, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1060, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1200, in _execute_context
+    context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 265, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 248, in reraise
+    raise value.with_traceback(tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1193, in _execute_context
+    context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 509, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such column: message.body [SQL: 'SELECT message.id AS message_id, message.title AS message_title, message.name AS message_name, message.email AS message_email, message.body AS message_body, message.timestamp AS message_timestamp, message.post_id AS message_post_id \nFROM message \nWHERE ? = message.post_id ORDER BY message.timestamp ASC\n LIMIT ? OFFSET ?'] [parameters: (12, 6, 0)] (Background on this error at: http://sqlalche.me/e/e3q8)
+2020-06-20 16:04:31,455-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1193, in _execute_context
+    context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 509, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such column: message.body
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 41, in show_post
+    pagination = Message.query.with_parent(post).order_by(Message.timestamp.asc()).paginate(page, per_page)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask_sqlalchemy/__init__.py", line 491, in paginate
+    items = self.limit(per_page).offset((page - 1) * per_page).all()
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2836, in all
+    return list(self)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2988, in __iter__
+    return self._execute_and_instances(context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3011, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/sql/elements.py", line 269, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1060, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1200, in _execute_context
+    context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 265, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 248, in reraise
+    raise value.with_traceback(tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1193, in _execute_context
+    context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 509, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such column: message.body [SQL: 'SELECT message.id AS message_id, message.title AS message_title, message.name AS message_name, message.email AS message_email, message.body AS message_body, message.timestamp AS message_timestamp, message.post_id AS message_post_id \nFROM message \nWHERE ? = message.post_id ORDER BY message.timestamp ASC\n LIMIT ? OFFSET ?'] [parameters: (12, 6, 0)] (Background on this error at: http://sqlalche.me/e/e3q8)
+2020-06-20 16:04:32,721-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1193, in _execute_context
+    context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 509, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such column: message.body
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 41, in show_post
+    pagination = Message.query.with_parent(post).order_by(Message.timestamp.asc()).paginate(page, per_page)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask_sqlalchemy/__init__.py", line 491, in paginate
+    items = self.limit(per_page).offset((page - 1) * per_page).all()
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2836, in all
+    return list(self)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2988, in __iter__
+    return self._execute_and_instances(context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3011, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/sql/elements.py", line 269, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1060, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1200, in _execute_context
+    context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 265, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 248, in reraise
+    raise value.with_traceback(tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1193, in _execute_context
+    context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 509, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such column: message.body [SQL: 'SELECT message.id AS message_id, message.title AS message_title, message.name AS message_name, message.email AS message_email, message.body AS message_body, message.timestamp AS message_timestamp, message.post_id AS message_post_id \nFROM message \nWHERE ? = message.post_id ORDER BY message.timestamp ASC\n LIMIT ? OFFSET ?'] [parameters: (12, 6, 0)] (Background on this error at: http://sqlalche.me/e/e3q8)
+2020-06-20 16:04:33,726-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1193, in _execute_context
+    context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 509, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such column: message.body
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 41, in show_post
+    pagination = Message.query.with_parent(post).order_by(Message.timestamp.asc()).paginate(page, per_page)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask_sqlalchemy/__init__.py", line 491, in paginate
+    items = self.limit(per_page).offset((page - 1) * per_page).all()
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2836, in all
+    return list(self)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2988, in __iter__
+    return self._execute_and_instances(context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3011, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/sql/elements.py", line 269, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1060, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1200, in _execute_context
+    context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 265, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 248, in reraise
+    raise value.with_traceback(tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1193, in _execute_context
+    context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 509, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such column: message.body [SQL: 'SELECT message.id AS message_id, message.title AS message_title, message.name AS message_name, message.email AS message_email, message.body AS message_body, message.timestamp AS message_timestamp, message.post_id AS message_post_id \nFROM message \nWHERE ? = message.post_id ORDER BY message.timestamp ASC\n LIMIT ? OFFSET ?'] [parameters: (12, 6, 0)] (Background on this error at: http://sqlalche.me/e/e3q8)
+2020-06-20 16:14:18,647-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1193, in _execute_context
+    context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 509, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such column: message.body
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 41, in show_post
+    pagination = Message.query.with_parent(post).order_by(Message.timestamp.asc()).paginate(page, per_page)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask_sqlalchemy/__init__.py", line 491, in paginate
+    items = self.limit(per_page).offset((page - 1) * per_page).all()
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2836, in all
+    return list(self)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2988, in __iter__
+    return self._execute_and_instances(context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3011, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/sql/elements.py", line 269, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1060, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1200, in _execute_context
+    context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 265, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 248, in reraise
+    raise value.with_traceback(tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1193, in _execute_context
+    context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 509, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such column: message.body [SQL: 'SELECT message.id AS message_id, message.title AS message_title, message.name AS message_name, message.email AS message_email, message.body AS message_body, message.timestamp AS message_timestamp, message.post_id AS message_post_id \nFROM message \nWHERE ? = message.post_id ORDER BY message.timestamp ASC\n LIMIT ? OFFSET ?'] [parameters: (12, 6, 0)] (Background on this error at: http://sqlalche.me/e/e3q8)
+2020-06-20 16:14:19,764-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1193, in _execute_context
+    context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 509, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such column: message.body
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 41, in show_post
+    pagination = Message.query.with_parent(post).order_by(Message.timestamp.asc()).paginate(page, per_page)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask_sqlalchemy/__init__.py", line 491, in paginate
+    items = self.limit(per_page).offset((page - 1) * per_page).all()
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2836, in all
+    return list(self)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2988, in __iter__
+    return self._execute_and_instances(context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3011, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/sql/elements.py", line 269, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1060, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1200, in _execute_context
+    context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 265, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 248, in reraise
+    raise value.with_traceback(tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1193, in _execute_context
+    context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 509, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such column: message.body [SQL: 'SELECT message.id AS message_id, message.title AS message_title, message.name AS message_name, message.email AS message_email, message.body AS message_body, message.timestamp AS message_timestamp, message.post_id AS message_post_id \nFROM message \nWHERE ? = message.post_id ORDER BY message.timestamp ASC\n LIMIT ? OFFSET ?'] [parameters: (12, 6, 0)] (Background on this error at: http://sqlalche.me/e/e3q8)
+2020-06-20 16:14:20,912-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1193, in _execute_context
+    context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 509, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such column: message.body
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 41, in show_post
+    pagination = Message.query.with_parent(post).order_by(Message.timestamp.asc()).paginate(page, per_page)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask_sqlalchemy/__init__.py", line 491, in paginate
+    items = self.limit(per_page).offset((page - 1) * per_page).all()
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2836, in all
+    return list(self)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2988, in __iter__
+    return self._execute_and_instances(context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3011, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/sql/elements.py", line 269, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1060, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1200, in _execute_context
+    context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 265, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 248, in reraise
+    raise value.with_traceback(tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1193, in _execute_context
+    context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 509, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such column: message.body [SQL: 'SELECT message.id AS message_id, message.title AS message_title, message.name AS message_name, message.email AS message_email, message.body AS message_body, message.timestamp AS message_timestamp, message.post_id AS message_post_id \nFROM message \nWHERE ? = message.post_id ORDER BY message.timestamp ASC\n LIMIT ? OFFSET ?'] [parameters: (12, 6, 0)] (Background on this error at: http://sqlalche.me/e/e3q8)
+2020-06-20 16:14:22,491-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1193, in _execute_context
+    context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 509, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such column: message.body
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 41, in show_post
+    pagination = Message.query.with_parent(post).order_by(Message.timestamp.asc()).paginate(page, per_page)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask_sqlalchemy/__init__.py", line 491, in paginate
+    items = self.limit(per_page).offset((page - 1) * per_page).all()
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2836, in all
+    return list(self)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2988, in __iter__
+    return self._execute_and_instances(context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3011, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/sql/elements.py", line 269, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1060, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1200, in _execute_context
+    context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 265, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 248, in reraise
+    raise value.with_traceback(tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1193, in _execute_context
+    context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 509, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such column: message.body [SQL: 'SELECT message.id AS message_id, message.title AS message_title, message.name AS message_name, message.email AS message_email, message.body AS message_body, message.timestamp AS message_timestamp, message.post_id AS message_post_id \nFROM message \nWHERE ? = message.post_id ORDER BY message.timestamp ASC\n LIMIT ? OFFSET ?'] [parameters: (12, 6, 0)] (Background on this error at: http://sqlalche.me/e/e3q8)
+2020-06-20 16:14:24,677-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1193, in _execute_context
+    context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 509, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such column: message.body
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 41, in show_post
+    pagination = Message.query.with_parent(post).order_by(Message.timestamp.asc()).paginate(page, per_page)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask_sqlalchemy/__init__.py", line 491, in paginate
+    items = self.limit(per_page).offset((page - 1) * per_page).all()
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2836, in all
+    return list(self)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2988, in __iter__
+    return self._execute_and_instances(context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3011, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/sql/elements.py", line 269, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1060, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1200, in _execute_context
+    context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 265, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 248, in reraise
+    raise value.with_traceback(tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1193, in _execute_context
+    context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 509, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such column: message.body [SQL: 'SELECT message.id AS message_id, message.title AS message_title, message.name AS message_name, message.email AS message_email, message.body AS message_body, message.timestamp AS message_timestamp, message.post_id AS message_post_id \nFROM message \nWHERE ? = message.post_id ORDER BY message.timestamp ASC\n LIMIT ? OFFSET ?'] [parameters: (12, 6, 0)] (Background on this error at: http://sqlalche.me/e/e3q8)
+2020-06-20 16:14:26,927-flask.app-ERROR-Exception on /post/kaldjfl/ [GET]
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1193, in _execute_context
+    context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 509, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such column: message.body
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/Users/zhaoh/python/blog/blog/blueprints/blog.py", line 41, in show_post
+    pagination = Message.query.with_parent(post).order_by(Message.timestamp.asc()).paginate(page, per_page)
+  File "/home/aaron/.local/lib/python3.6/site-packages/flask_sqlalchemy/__init__.py", line 491, in paginate
+    items = self.limit(per_page).offset((page - 1) * per_page).all()
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2836, in all
+    return list(self)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2988, in __iter__
+    return self._execute_and_instances(context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3011, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/sql/elements.py", line 269, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1060, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1200, in _execute_context
+    context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 265, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 248, in reraise
+    raise value.with_traceback(tb)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1193, in _execute_context
+    context)
+  File "/home/aaron/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 509, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such column: message.body [SQL: 'SELECT message.id AS message_id, message.title AS message_title, message.name AS message_name, message.email AS message_email, message.body AS message_body, message.timestamp AS message_timestamp, message.post_id AS message_post_id \nFROM message \nWHERE ? = message.post_id ORDER BY message.timestamp ASC\n LIMIT ? OFFSET ?'] [parameters: (12, 6, 0)] (Background on this error at: http://sqlalche.me/e/e3q8)

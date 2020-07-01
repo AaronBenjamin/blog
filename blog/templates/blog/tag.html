@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% from 'bootstrap/pagination.html' import render_pagination %}
+{% from 'macros.html' import render_pagination %}
 {% from 'macros.html' import render_tag with context %}
 
 
@@ -11,12 +11,9 @@
     <p class="text-muted">{{ tag.posts|length }}篇文章</p>
 </div>
 <div class="row">
-    <div class="col-sm-8">
+    <div class="col s12 m10 ">
         {% include "blog/_posts.html" %}
-        <div class="page-footer">{{ render_pagination(pagination) }}</div>
-    </div>
-    <div class="col-sm-4 sidebar">
-        {% include "blog/_sidebar.html" %}
+        {{ render_pagination(pagination) }}
     </div>
 </div>
 {% endblock %}

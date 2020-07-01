@@ -1,0 +1,11 @@
+{% from 'macros.html' import render_form_field %}
+<div class="card-panel hoverable">
+    <h3 class="center-align">留言</h3>
+        <form method="post">  
+            {{ form.csrf_token }}
+            {{ render_form_field(form.name) }}
+            {{ render_form_field(form.email) }}
+            {{ render_form_field(form.body) }}
+            <button class="btn waves-effect waves-light" type="submit" name="action">{{ form.submit }} </button> 
+        </form>
+</div>

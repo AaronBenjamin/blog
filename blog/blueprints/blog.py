@@ -2,8 +2,9 @@ from flask import render_template, flash, redirect, url_for, request, current_ap
 from flask_login import current_user
 from sqlalchemy.sql.expression import func
 from blog.extensions import db, cache
-from blog.models import Post, Tag
+from blog.models import Post, Tag, Message
 from blog.utils import redirect_back
+from blog.forms import MessageForm
 
 
 blog_bp = Blueprint('blog', __name__)
@@ -34,7 +35,22 @@ def show_tag(tag_id):
 @blog_bp.route('/post/<slug>/', methods=['GET', 'POST'])
 def show_post(slug):
     post = Post.query.filter_by(slug=slug).first_or_404()
-    return render_template('blog/post.html', post=post)
+    form = MessageForm()
+    page = request.args.get('page', 1, type=int)
+    per_page = current_app.config['BLOG_POST_PER_PAGE']
+    pagination = Message.query.with_parent(post).order_by(Message.timestamp.asc()).paginate(page, per_page)
+    messages = pagination.items
+    if form.validate_on_submit():
+        title = post.title
+        name = form.name.data
+        email = form.email.data
+        body = form.body.data
+        message = Message(title=title, name=name, email=email, body=body, post=post)
+        db.session.add(message)
+        db.session.commit()
+        flash('留言成功！')
+        return redirect(url_for('blog.show_post', slug=slug))
+    return render_template('blog/post.html', post=post, form=form, pagination=pagination, messages=messages)
 
 @blog_bp.route('/search')
 def search():

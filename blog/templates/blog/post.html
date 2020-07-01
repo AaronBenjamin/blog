@@ -1,7 +1,5 @@
 {% extends 'base.html' %}
-{% from 'bootstrap/form.html' import render_form %}
-{% from 'bootstrap/pagination.html' import render_pagination %}
-{% from 'bootstrap/form.html' import render_form, render_field %}
+{% from 'macros.html' import render_form_field %}
 {% from 'macros.html' import render_tag with context %}
 
 {% block title %}{{ post.title }}{% endblock %}
@@ -21,16 +19,61 @@
     </h1>
     <small>
     {{ render_tag(post) }}
-    &nbsp;&nbsp;<i>{{ moment(post.timestamp).format('L') }}</i>
+    &nbsp;&nbsp;<span class="chip">日期：{{ moment(post.timestamp).format('L') }}</span>
+    <div id="slide-out" class="sidenav card">
+        <div class="row">
+        <div class="col s8">
+        <div class="card-image">
+        <img  src="{{ url_for('static', filename='touxiang.jpg') }}">
+        </div>
+        </div>
+        </div>
+        <div class="card-content">
+            <p>内容</p>
+        </div>
+    </div>
+<!--
+      <a href="#" data-target="slide-out" class="sidenav-trigger">作者：赵洪波律师</a>
+-->
     </small>
 </div>
 <div class="row">
-    <div class="col-lg-9">
+    <div class="col s12 m9">
         {{ post.body|safe }}
         <hr>
     </div>
-<div class="col-lg-3 sidebar">
-    {% include "blog/_sidebar.html" %}
+</div>
+<!---
+{% if not current_user.is_authenticated %}
+<div class="row">
+    <div class="col s12 m9">
+        {% include 'blog/_message.html' %}
+    </div>
+</div>
+{% endif %}
+-->
+
+{% if current_user.is_authenticated %}
+<div class="row">
+    <div class="col s12 m9">
+        <h2>评论列表</h2>
+{% if messages %}
+{% for message in messages %}
+<div class="card hoverable">
+<div class="card-content waves-effect">
+    <span class="card-title activator grey-text">
+        {% if message.name %}姓名：{{ message.name }}{% else %}姓名：匿名{% endif %}<br>
+        {% if message.email %}邮箱：{{ message.email }}{% else %}邮箱：未填写{% endif %}<br>
+        <small class="chip">留言日期：{{ moment(message.timestamp).format('LLLL') }}</small>
+    </span>
+    <p>{{ message.body }}</p>
 </div>
 </div>
+{% endfor %}
+{% else %}
+<p>暂无评论</p>
+{% endif %}
+</div>
+</div>
+{% endif %}
 {% endblock %}

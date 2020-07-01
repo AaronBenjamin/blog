@@ -25,6 +25,12 @@ class PostForm(FlaskForm):
     body = CKEditorField('正文', validators=[DataRequired()])
     submit = SubmitField('发布文章')
 
+class MessageForm(FlaskForm):
+    name = StringField('名称（选填）')
+    email = StringField('邮箱（选填）', validators=[Email()])
+    body = TextAreaField('留言', validators=[DataRequired(), Length(1,1000)])
+    submit = SubmitField('提交')
+
 
 
 

@@ -14,7 +14,7 @@ from blog.blueprints.admin import admin_bp
 from blog.blueprints.auth import auth_bp
 from blog.blueprints.blog import blog_bp
 from blog.extensions import bootstrap, db, login_manager, csrf, ckeditor, mail, moment, toolbar, migrate, whooshee, cache, migrate
-from blog.models import Admin, Post, Tag
+from blog.models import Admin, Post, Tag, Message
 from blog.settings import config
 
 basedir = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
@@ -25,6 +25,7 @@ def create_app(config_name=None):
         config_name = os.getenv('FLASK_CONFIG', 'development')
 
     app = Flask('blog')
+    app.jinja_env.add_extension('jinja2.ext.do')
     app.config.from_object(config[config_name])
 
     register_logging(app)
@@ -95,7 +96,7 @@ def register_blueprints(app):
 def register_shell_context(app):
     @app.shell_context_processor
     def make_shell_context():
-        return dict(db=db, Admin=Admin, Post=Post, Tag=Tag)
+        return dict(db=db, Admin=Admin, Post=Post, Message=Message, Tag=Tag)
 
 def register_template_context(app):
     @app.context_processor

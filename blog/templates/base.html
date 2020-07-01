@@ -1,4 +1,5 @@
 {% from 'bootstrap/nav.html' import render_nav_item %}
+{% from 'macros.html' import nav_link %}
 <!DOCTYPE html>
 <html lang='zh-cmn-Hans'>
     <head>
@@ -7,57 +8,42 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>{% block title %}{% endblock title %} - {{ admin.blog_title|default('法律人博客') }}</title>
         <link rel='icon' href="{{ url_for('static', filename='favicon.ico') }}">
-        <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-        <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+        <link href="https://cdn.bootcdn.net/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" type="text/css">
         {% endblock head %}
     </head>
     <body>
         {% block nav %}
-        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary custom-narbar-width">
-            <div class="container">
-		    <a class="navbar-brand" href="{{ url_for('blog.index') }}">{{ admin.blog_title|default('法律人博客') }}</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" >
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarColor01">
-		    <form class="form-inline ml-auto" action="{{ url_for('blog.search') }}">
-                <input class="form-control" placeholder="输入关键词检索" type="search" name="search" required id="searchInput">
-                <button type="submit" class="btn"> <i class='fas fa-search' style='font-size:24px;color:rgb(238, 250, 215)' ></i></button>
-               
-		    </form>
-
-                    <ul class="nav navbar-nav navbar-right">
-                        {% if current_user.is_authenticated %}
-                        {{ render_nav_item('admin.new_post', '新建文章') }}
-                        <li class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button">
-                                管理<span class="caret"></span>
-                            </a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="{{ url_for('admin.manage_post') }}">文章</a>
-                                <a class="dropdown-item" href="{{ url_for('admin.manage_tag') }}">标签</a>
-                            </div>
-                        </li>
-                        {{ render_nav_item('admin.settings', '设置') }}
-                        {% endif %}
-                    </ul>
-                </div>
+        <nav >
+            <div class="nav-wrapper  grey darken-1 ">
+		    <a class="brand-logo" style="margin-left:10%;" href="{{ url_for('blog.index') }}">{{ admin.blog_title|default('法律人博客') }}</a>  
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down" style="margin-right:10%;">
+            {% if current_user.is_authenticated %}
+            {{ nav_link('admin.new_post', '新建文章') }}
+            {{ nav_link('admin.manage_tag', '新建标签') }}
+            {{ nav_link('admin.settings', '设置') }}
+            {% endif %}
+            </ul>
             </div>
         </nav>
+        <ul class="sidenav" id="mobile-demo">
+            {% if current_user.is_authenticated %}
+            {{ nav_link('admin.manage_post', '新建文章') }}
+            {{ nav_link('admin.manage_tag', '新建标签') }}
+            {{ nav_link('admin.settings', '设置') }}
+            {% endif %}
+        </ul>
+        
         {% endblock nav %}
-        <main class="container custom-container-width">
-            {% for message in get_flashed_messages(with_categories=True) %}
-            <div class="alert alert-{{ message[0] }}" role="alert">
-                <button type="button" class="close" data-dismiss="alert">&times;</button>
-		{{ message[1] }}
-            </div>
-        {% endfor %}
-        {% block content %}{% endblock content %}
+        <div class="container">
+            
+        {% block content %}        {% endblock content %}
         {% block footer %}
         <footer>
             <p class="float-left">
-                <small>Copyright &copy; 2020 zhaohongbo.cn版权所有    <a href="http://zhaohongbo.66law.cn" title="赵洪波律师">赵洪波律师网</a></small>
+                <small>Copyright &copy; 2020 zhaohongbo.cn版权所有    <b>赵洪波</b></small>
             </p>
             <p class="float-right">
                 <small>
@@ -70,12 +56,12 @@
             </p>
         </footer>
         {% endblock footer %}
-        </main> 
+        </div> 
 
         {% block scripts %}
         <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
         <script src="https://cdn.bootcdn.net/ajax/libs/popper.js/1.15.0/esm/popper.min.js"></script>
-        <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="https://cdn.bootcdn.net/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
         <script type="text/javascript" src="{{ url_for('static', filename='js/script.js') }}"></script>
         {{ moment.include_moment(local_js="https://cdn.bootcss.com/moment.js/2.24.0/moment-with-locales.min.js") }}
 	{{ moment.locale(auto_detect=True) }}
@@ -86,7 +72,17 @@
 		{% else %}
 			var is_authenticated = false;
 		{% endif %}
-      
+        $(document).ready(function(){ $('.carousel.carousel-slider').carousel({
+    fullWidth: true
+  });
+    
+    {% for message in get_flashed_messages() %}
+        $(document).ready(function() {
+            M.toast({html:'<div class="center-align">{{ message }}</div>', displayLength:6000, classes:'center-align'})
+        })
+    {% endfor %}
+
+        })
 	</script>
         {% endblock scripts %}
     </body>

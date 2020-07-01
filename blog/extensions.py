@@ -21,7 +21,7 @@ moment = Moment()
 toolbar = DebugToolbarExtension()
 migrate = Migrate()
 whooshee = Whooshee()
-cache = Cache(config={'CACHE_TYPE':'simple'})
+cache = Cache(config={'CACHE_TYPE':'null'})
 migrate = Migrate()
 
 

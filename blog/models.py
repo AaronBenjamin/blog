@@ -36,12 +36,23 @@ class Post(db.Model):
     slug = db.Column(db.String(300))
     timestamp = db.Column(db.DateTime, default=datetime.utcnow, index=True)
     tags = db.relationship('Tag',secondary=tagging, back_populates='posts')
+    messages = db.relationship('Message', back_populates='post', cascade='all, delete-orphan')
 
 
 class Tag(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(64), index=True, unique=True)
     posts = db.relationship('Post', secondary=tagging, back_populates='tags')
+
+class Message(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    title = db.Column(db.String(60))
+    name = db.Column(db.String(60))
+    email = db.Column(db.String(60))
+    body = db.Column(db.Text)
+    timestamp = db.Column(db.DateTime, default=datetime.utcnow, index=True)
+    post_id = db.Column(db.Integer, db.ForeignKey('post.id'))
+    post = db.relationship('Post', back_populates='messages')
 
 
 

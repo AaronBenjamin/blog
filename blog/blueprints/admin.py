@@ -85,7 +85,8 @@ def edit_post(slug):
         else:
             post.slug = slugify(postform.title.data)
         post.title = postform.title.data
-        post.body = postform.body.data 
+        post.body = postform.body.data
+        post.timestamp = datetime.utcnow()
         for name in postform.tag.data.split():
             tag = Tag.query.filter_by(name=name).first()
             if tag is None:
@@ -98,8 +99,6 @@ def edit_post(slug):
         db.session.add(post)
         db.session.commit()
         cache.clear()
-        flash('本地缓存已全部清除', 'success')
-        flash('文章修改成功！', 'success')
         return redirect(url_for('blog.show_post', slug=post.slug))
     postform.title.data = post.title
     postform.tag.data = ' '.join([tag.name for tag in post.tags])
@@ -114,7 +113,6 @@ def delete_post(slug):
     db.session.delete(post)
     db.session.commit()
     cache.clear()
-    flash('本地缓存已全部清除', 'success')
     flash('文章删除成功', 'success')
     return redirect_back()
 
@@ -139,7 +137,6 @@ def delete_tag(slug, tag_id):
     post.tags.remove(tag)
     db.session.commit()
     cache.clear()
-    flash('本地缓存已全部清除', 'success')
     
     if not tag.photos:
         db.session.delete(tag)

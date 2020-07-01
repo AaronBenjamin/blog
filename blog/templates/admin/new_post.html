@@ -1,6 +1,5 @@
 {% extends 'base.html' %}
-{% from 'bootstrap/form.html' import render_form %}
-{% from 'bootstrap/form.html' import render_field %}
+{% from 'macros.html' import render_form_field %}
 
 {% block title %}新建文章{% endblock %}
 
@@ -9,11 +8,17 @@
     <h1>新建文章</h1>
 </div>
 <form method="post">
+	<div class="row">
 	{{ postform.csrf_token() }}
-	{{ render_field(postform.title) }}
-	{{ render_field(postform.tag) }}
-	{{ render_field(postform.body) }}
-	{{ render_field(postform.submit) }}
+	{{ render_form_field(postform.title) }}
+	{{ render_form_field(postform.tag) }}
+	正文
+	<div class="input-field">
+		{{ postform.body(class_='validate') }}<br>
+	</div>
+	<button class="btn waves-effect waves-light" type="submit" name="action">{{ postform.submit }}</button>
+	</div>
+</form>
 {% endblock %}
 
 {% block scripts %}
